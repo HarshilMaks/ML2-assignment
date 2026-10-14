@@ -1,0 +1,9 @@
+Dataset,Task,Algorithm,Metric,Score,Params,Best
+Mall_Customers.csv,Clustering,KMeans,Silhouette,0.4208,k=10 (auto),False
+Mall_Customers.csv,Clustering,KMeans,Silhouette,0.3041,k=5 (fixed),False
+Mall_Customers.csv,Clustering,Agglomerative,Silhouette,0.4176,k=10 (auto),False
+Mall_Customers.csv,Clustering,Agglomerative,Silhouette,0.287,k=5 (fixed),False
+Mall_Customers.csv,Clustering,DBSCAN,Silhouette,0.4746,"eps=0.5, min_samples=3, noise_frac=0.245 (auto)",True
+Mall_Customers.csv,Clustering,DBSCAN,Silhouette,0.2963,"eps=0.8, min_samples=7, noise_frac=0.21 (k=5 fixed)",False
+Mall_Customers.csv,Clustering,GaussianMixture,Silhouette,0.3972,k=10 (auto),False
+Mall_Customers.csv,Clustering,GaussianMixture,Silhouette,0.2216,k=5 (fixed),False
