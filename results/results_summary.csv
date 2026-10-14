@@ -13,3 +13,7 @@ Social_Network_Ads.csv,Classification,SVM (RBF),ROC_AUC,0.9549,"accuracy=0.9000,
 Social_Network_Ads.csv,Classification,DecisionTree,ROC_AUC,0.8759,"accuracy=0.8800, f1=0.8378",False
 Social_Network_Ads.csv,Classification,RandomForest,ROC_AUC,0.9238,"accuracy=0.9000, f1=0.8649",False
 Social_Network_Ads.csv,Classification,NaiveBayes,ROC_AUC,0.9475,"accuracy=0.8700, f1=0.8116",False
+insurance_pre.csv,Boosting,GradientBoosting,R2,0.8785,"rmse=4342.91, mae=2424.53",True
+insurance_pre.csv,Boosting,AdaBoost,R2,0.827,"rmse=5181.86, mae=4253.85",False
+insurance_pre.csv,Boosting,XGBoost,R2,0.8439,"rmse=4922.69, mae=2687.92",False
+insurance_pre.csv,Boosting,LightGBM,R2,0.8651,"rmse=4576.46, mae=2541.42",False
